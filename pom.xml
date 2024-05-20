@@ -7,6 +7,16 @@
   <version>1.0.0-SNAPSHOT</version>
   <name>gelirimSagaOrchestration</name>
   <url>http://maven.apache.org</url>
+  <packaging>jar</packaging>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub OWNER Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/gelirim/sagaorchestration</url>
+    </repository>
+  </distributionManagement>
+
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
