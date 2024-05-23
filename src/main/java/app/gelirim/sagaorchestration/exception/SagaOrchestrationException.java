@@ -1,4 +1,4 @@
-package app.gelirim.sagaorchestration;
+package app.gelirim.sagaorchestration.exception;
 
 public class SagaOrchestrationException extends RuntimeException{
     private static final String BASE_MESSAGE = "Saga Orchestration Exception:";

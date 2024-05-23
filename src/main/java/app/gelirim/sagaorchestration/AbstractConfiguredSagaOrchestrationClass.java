@@ -1,9 +1,12 @@
 package app.gelirim.sagaorchestration;
 
 
-import app.gelirim.sagaorchestration.step.StepExecutionLogType;
+import app.gelirim.sagaorchestration.annotation.SagaOrchestration;
+import app.gelirim.sagaorchestration.annotation.SagaStepsExecutionLog;
+import app.gelirim.sagaorchestration.exception.SagaOrchestrationException;
+import app.gelirim.sagaorchestration.executionlog.StepExecutionLogType;
 
-public abstract class AbstractConfiguredSagaOrchestrationClass {
+public abstract class AbstractConfiguredSagaOrchestrationClass<T> extends AbstractOrchestration<T> {
     protected String groupName;
     protected boolean customInitializeStep;
     protected boolean startupStep;

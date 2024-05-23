@@ -1,4 +1,4 @@
-package app.gelirim.sagaorchestration;
+package app.gelirim.sagaorchestration.annotation;
 
 import org.springframework.stereotype.Service;
 

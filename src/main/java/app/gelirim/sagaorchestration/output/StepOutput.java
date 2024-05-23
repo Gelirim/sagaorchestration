@@ -1,4 +1,4 @@
-package app.gelirim.sagaorchestration;
+package app.gelirim.sagaorchestration.output;
 
 import java.util.Date;
 
@@ -10,6 +10,7 @@ public class StepOutput {
     private Date startDate;
     private Date endDate;
     private String message;
+    private boolean processStep ;
 
     public String getName() {
         return name;
@@ -65,5 +66,13 @@ public class StepOutput {
 
     public void setMessage(String message) {
         this.message = message;
+    }
+
+    public boolean isProcessStep() {
+        return processStep;
+    }
+
+    public void setProcessStep(boolean processStep) {
+        this.processStep = processStep;
     }
 }

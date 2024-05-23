@@ -1,8 +1,8 @@
-package app.gelirim.sagaorchestration;
+package app.gelirim.sagaorchestration.annotation;
 
 
-import app.gelirim.sagaorchestration.step.StepExecutionLogType;
-import app.gelirim.sagaorchestration.step.StepLogInsertType;
+import app.gelirim.sagaorchestration.executionlog.StepExecutionLogType;
+import app.gelirim.sagaorchestration.executionlog.StepLogInsertType;
 
 import java.lang.annotation.*;
 

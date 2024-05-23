@@ -1,4 +1,4 @@
-package app.gelirim.sagaorchestration.step;
+package app.gelirim.sagaorchestration.executionlog;
 
 public enum StepLogInsertType {
     SYNC,

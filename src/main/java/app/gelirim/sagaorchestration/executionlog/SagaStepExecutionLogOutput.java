@@ -1,4 +1,6 @@
-package app.gelirim.sagaorchestration;
+package app.gelirim.sagaorchestration.executionlog;
+
+import app.gelirim.sagaorchestration.output.StepOutput;
 
 import java.util.Date;
 import java.util.List;
